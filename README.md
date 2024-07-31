@@ -40,15 +40,26 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Commit messages must have types according to commitlint-config-conventional can be:
 
 * build
+  * Changes that affect the build system or external dependencies
 * chore
+  * Routine tasks or updates that don't modify src or test files
 * ci
+  * Modifications to the CI configuration files and scripts
 * docs
+  * Changes to documentation, including updates to API documentation or inline code comments.
 * feat
+  * A new feature specific to the app, such as adding a new component or service.
 * fix
+  * A bug fix within the application, such as a fix in a component or service.
 * perf
+  * Performance improvements in the app, such as optimizing a component
 * refactor
+  * Code changes that enhance the project structure or improve readability without altering functionality
 * revert
+  * Reverts a previous commit or changes within the app.
 * style
+  * Changes that do not alter the logic of the code and improves the style of the app.
 * test
+  * Updates or additions to the unit tests.
 
 For more information, see the [commitlint documentation](https://commitlint.js.org/#/reference-rules?id=type-enum).
